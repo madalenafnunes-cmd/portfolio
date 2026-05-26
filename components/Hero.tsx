@@ -18,7 +18,7 @@ export default function Hero() {
           <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-lg bg-white flex items-center justify-center">
             {!imgError ? (
               <Image
-                src="/images/profile.jpg"
+                src="/images/profilepic.jpeg"
                 alt="Madalena Nunes"
                 fill
                 className="object-cover"
