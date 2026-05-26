@@ -34,7 +34,7 @@ export default function Portfolio() {
           }}
         />
         <Card
-          image="/images/portfolio/posture 2.jpeg"
+          images={["/images/portfolio/posture.jpeg", "/images/portfolio/posture 2.jpeg"]}
           imageAlt="Posture Alignment Device"
           fallbackIcon={<CpuChipIcon className="w-16 h-16" />}
           eyebrow="02"

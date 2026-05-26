@@ -5,6 +5,7 @@ import { useState, ReactNode } from "react";
 
 type Props = {
   image?: string;
+  images?: string[];
   imageAlt?: string;
   fallbackIcon?: ReactNode;
   eyebrow?: string;
@@ -20,6 +21,7 @@ type Props = {
 
 export default function Card({
   image,
+  images,
   imageAlt,
   fallbackIcon,
   eyebrow,
@@ -47,7 +49,21 @@ export default function Card({
       style={accentColor ? { borderLeft: `4px solid ${accentColor}` } : undefined}
     >
       <div className="relative w-full h-48 bg-hero-gradient flex items-center justify-center overflow-hidden">
-        {showImage ? (
+        {images && images.length > 1 ? (
+          <div className="flex w-full h-full">
+            {images.map((src, i) => (
+              <div key={i} className="relative flex-1 h-full">
+                <Image
+                  src={src}
+                  alt={`${imageAlt || title} ${i + 1}`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 50vw, 20vw"
+                />
+              </div>
+            ))}
+          </div>
+        ) : showImage ? (
           <Image
             src={image!}
             alt={imageAlt || title}
