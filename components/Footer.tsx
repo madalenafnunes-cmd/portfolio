@@ -28,14 +28,6 @@ export default function Footer() {
           >
             LinkedIn
           </a>
-          <a
-            href="https://github.com/madalena-nunes"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-primary transition-colors"
-          >
-            GitHub
-          </a>
         </div>
         <p className="mt-12 text-white/40 text-sm">© 2025 Madalena Nunes</p>
       </div>
