@@ -29,6 +29,8 @@ export default function WorkExperience() {
           accentColor="#93C5FD"
         />
         <Card
+          image="/images/cml.jpg"
+          imageAlt="Câmara Municipal de Lisboa"
           fallbackIcon={<BuildingLibraryIcon className="w-16 h-16" />}
           eyebrow="Feb – Jul 2022"
           title="Câmara Municipal de Lisboa"

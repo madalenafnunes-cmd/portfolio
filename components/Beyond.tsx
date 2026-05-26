@@ -34,8 +34,6 @@ export default function Beyond() {
           description="Mentored international students joining university, supporting their academic, social, and cultural integration."
         />
         <Card
-          image="/images/beyond/cml.jpg"
-          imageAlt="Community Service"
           fallbackIcon={<HandRaisedIcon className="w-16 h-16" />}
           title="Community Service"
           description="Volunteered in daycare centres, schools, and community outreach, going door to door to support local families."
