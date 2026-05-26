@@ -18,6 +18,7 @@ export default function WorkExperience() {
           title="Medtronic"
           subtitle="Digital Health Consultant"
           description="Implemented 10+ digital transformation projects across hospitals nationwide — including a remote monitoring app connected to wearables, database management for waiting lists, value-based healthcare analysis, and a patient referral platform. Supported 500+ patients and increased programme retention by 15%."
+          link={{ href: "https://www.medtronic.com/", label: "Visit" }}
           accentColor="#A78BFA"
         />
         <Card

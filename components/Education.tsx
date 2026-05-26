@@ -33,7 +33,7 @@ export default function Education() {
           link={{ href: "https://www.polimi.it/", label: "Visit" }}
         />
         <Card
-          image="/images/education/cuf.jpg"
+          image="/images/education/cuf-logo.png"
           imageAlt="CUF Hospital"
           fallbackIcon={<BeakerIcon className="w-16 h-16" />}
           eyebrow="Feb – Oct 2024 · Lisbon, Portugal"
@@ -41,6 +41,7 @@ export default function Education() {
           subtitle="Master's Thesis Research"
           description="Developed a multi-objective optimisation model in Python to improve routing, scheduling, and resource allocation for CUF's Home Hospitalisation Unit."
           badges={["–24% travel time", "+77% workload balance", "20s plan generation"]}
+          link={{ href: "https://www.cuf.pt/", label: "Visit" }}
         />
       </CardGrid>
     </SectionWrapper>

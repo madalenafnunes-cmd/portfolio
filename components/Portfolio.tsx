@@ -27,7 +27,6 @@ export default function Portfolio() {
           title="CareVisits"
           subtitle="Bringing Hospitals Home"
           description="Built an MVP mobile app for routing and scheduling home hospitalisation visits, so medical teams can focus on patient treatment rather than logistics."
-          tags={["Health-tech Startup"]}
           badges={["🏆 Top 10 Finalist — Santander X Awards 2024"]}
           link={{
             href: "https://www.linkedin.com/posts/innovation-entrepreneurship-santanderx-share-7260969984581894144-wSiL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgPwsUBKSo3ZNr8CLqPAdu1ohItvrXizas",
@@ -35,7 +34,7 @@ export default function Portfolio() {
           }}
         />
         <Card
-          image="/images/portfolio/posture.jpeg"
+          image="/images/portfolio/posture 2.jpeg"
           imageAlt="Posture Alignment Device"
           fallbackIcon={<CpuChipIcon className="w-16 h-16" />}
           eyebrow="02"
@@ -71,6 +70,8 @@ export default function Portfolio() {
           tags={["AI", "n8n", "Healthcare", "Claude"]}
         />
         <Card
+          image="/images/portfolio/wheretowork.png"
+          imageAlt="Where to Work"
           fallbackIcon={<MapPinIcon className="w-16 h-16" />}
           eyebrow="06"
           title="Where to Work"

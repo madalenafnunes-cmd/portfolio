@@ -64,10 +64,10 @@ export default function Card({
         {eyebrow && (
           <p className="text-badgeText text-xs font-semibold tracking-wider uppercase mb-2">{eyebrow}</p>
         )}
-        <h3 className="font-sans font-semibold text-lg text-ink">{title}</h3>
-        {subtitle && <p className="text-muted text-sm mt-1 italic">{subtitle}</p>}
+        <h3 className="font-sans font-semibold text-base text-ink">{title}</h3>
+        {subtitle && <p className="text-muted text-xs mt-1 italic">{subtitle}</p>}
         {meta && <p className="text-muted text-xs mt-2">{meta}</p>}
-        <p className="text-ink/80 text-sm mt-3 leading-relaxed flex-1">{description}</p>
+        <p className="text-ink/80 text-xs mt-3 leading-relaxed flex-1">{description}</p>
 
         {badges && badges.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-4">
