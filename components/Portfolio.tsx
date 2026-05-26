@@ -35,7 +35,7 @@ export default function Portfolio() {
           }}
         />
         <Card
-          image="/images/portfolio/posture.jpg"
+          image="/images/portfolio/posture.jpeg"
           imageAlt="Posture Alignment Device"
           fallbackIcon={<CpuChipIcon className="w-16 h-16" />}
           eyebrow="02"
@@ -53,7 +53,7 @@ export default function Portfolio() {
           tags={["Java", "Machine Learning", "Bayesian Networks"]}
         />
         <Card
-          image="/images/portfolio/hackathon.jpg"
+          image="/images/portfolio/Hackathon.jpeg"
           imageAlt="SLI Space Hackathon"
           fallbackIcon={<RocketLaunchIcon className="w-16 h-16" />}
           eyebrow="04"

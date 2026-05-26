@@ -33,7 +33,7 @@ export default function Education() {
           link={{ href: "https://www.polimi.it/", label: "Visit" }}
         />
         <Card
-          image="/images/education/cuf.png"
+          image="/images/education/cuf.jpg"
           imageAlt="CUF Hospital"
           fallbackIcon={<BeakerIcon className="w-16 h-16" />}
           eyebrow="Feb – Oct 2024 · Lisbon, Portugal"

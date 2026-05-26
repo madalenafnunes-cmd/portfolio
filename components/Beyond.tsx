@@ -21,7 +21,7 @@ export default function Beyond() {
           description="Volunteered as an English teacher, contributing to local education in Hua Hin, Thailand."
         />
         <Card
-          image="/images/beyond/rehabilitation.jpg"
+          image="/images/beyond/rehabilition.jpg"
           imageAlt="House Rehabilitation — Just a Change"
           fallbackIcon={<HomeIcon className="w-16 h-16" />}
           eyebrow="Lisbon, Portugal · 2 months"
@@ -34,6 +34,8 @@ export default function Beyond() {
           description="Mentored international students joining university, supporting their academic, social, and cultural integration."
         />
         <Card
+          image="/images/beyond/cml.jpg"
+          imageAlt="Community Service"
           fallbackIcon={<HandRaisedIcon className="w-16 h-16" />}
           title="Community Service"
           description="Volunteered in daycare centres, schools, and community outreach, going door to door to support local families."
