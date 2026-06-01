@@ -29,11 +29,15 @@ export default function Beyond() {
           description='Participated in a community house rehabilitation project in Lisbon under the "Just a Change" initiative.'
         />
         <Card
+          image="/images/beyond/university_mentor.JPG"
+          imageAlt="University Mentor"
           fallbackIcon={<UserGroupIcon className="w-16 h-16" />}
           title="University Mentor"
           description="Mentored international students joining university, supporting their academic, social, and cultural integration."
         />
         <Card
+          image="/images/beyond/community_service.JPG"
+          imageAlt="Community Service"
           fallbackIcon={<HandRaisedIcon className="w-16 h-16" />}
           title="Community Service"
           description="Volunteered in daycare centres, schools, and community outreach, going door to door to support local families."
