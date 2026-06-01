@@ -8,6 +8,7 @@ export default function Education() {
   return (
     <SectionWrapper
       id="education"
+      number="1"
       title="My Education"
       subtitle="The academic foundation that developed my fast learning and problem-solving skills."
     >
@@ -21,6 +22,7 @@ export default function Education() {
           subtitle="BSc & MSc in Biomedical Engineering"
           description="A rigorous technical curriculum bridging mathematics, computational programming, physics, chemistry, and medicine courses taught at Lisbon Faculty of Medicine."
           link={{ href: "https://tecnico.ulisboa.pt/", label: "Visit" }}
+          accentColor="#A78BFA"
         />
         <Card
           image="/images/education/polimi.png"
@@ -31,6 +33,7 @@ export default function Education() {
           subtitle="ERASMUS+ Exchange"
           description="International exchange semester at one of the Top 10 EU technical universities, focused on cutting-edge medical informatics and computer-aided surgical techniques."
           link={{ href: "https://www.polimi.it/", label: "Visit" }}
+          accentColor="#93C5FD"
         />
         <Card
           image="/images/education/cuf-logo.png"
@@ -42,6 +45,7 @@ export default function Education() {
           description="Developed a multi-objective optimisation model in Python to improve routing, scheduling, and resource allocation for CUF's Home Hospitalisation Unit."
           badges={["–24% travel time", "+77% workload balance", "20s plan generation"]}
           link={{ href: "https://www.cuf.pt/", label: "Visit" }}
+          accentColor="#A78BFA"
         />
       </CardGrid>
     </SectionWrapper>

@@ -15,11 +15,14 @@ export default function Portfolio() {
   return (
     <SectionWrapper
       id="portfolio"
+      number="2"
       title="My Portfolio"
       subtitle="Where I developed my creative and technical skills."
+      dark
     >
       <CardGrid cols={3}>
         <Card
+          dark
           image="/images/portfolio/carevisits.png"
           imageAlt="CareVisits"
           fallbackIcon={<HeartIcon className="w-16 h-16" />}
@@ -32,8 +35,10 @@ export default function Portfolio() {
             href: "https://www.linkedin.com/posts/innovation-entrepreneurship-santanderx-share-7260969984581894144-wSiL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgPwsUBKSo3ZNr8CLqPAdu1ohItvrXizas",
             label: "View Award Post",
           }}
+          accentColor="#A78BFA"
         />
         <Card
+          dark
           images={["/images/portfolio/posture.jpeg", "/images/portfolio/posture 2.jpeg"]}
           imageAlt="Posture Alignment Device"
           fallbackIcon={<CpuChipIcon className="w-16 h-16" />}
@@ -42,16 +47,20 @@ export default function Portfolio() {
           subtitle="Real-time corrective wearable"
           description="Designed and prototyped a wearable device using a Seeeduino XIAO and accelerometer to detect incorrect posture and provide real-time corrective feedback."
           tags={["Hardware", "Python", "Embedded Systems"]}
+          accentColor="#93C5FD"
         />
         <Card
+          dark
           fallbackIcon={<ChartBarIcon className="w-16 h-16" />}
           eyebrow="03"
           title="Disease Prediction Algorithm"
           subtitle="Bayesian Network Classifier"
           description="Built a Bayesian network classifier in Java using maximum spanning tree algorithms to predict lung cancer (82%), diabetes (76%), and hepatitis (81%) from real-world datasets."
           tags={["Java", "Machine Learning", "Bayesian Networks"]}
+          accentColor="#A78BFA"
         />
         <Card
+          dark
           image="/images/portfolio/Hackathon.jpeg"
           imageAlt="SLI Space Hackathon"
           fallbackIcon={<RocketLaunchIcon className="w-16 h-16" />}
@@ -60,16 +69,20 @@ export default function Portfolio() {
           subtitle="CEiiA Space Innovation Hackathon 2024"
           description="Worked on the MH-X mission project using space technologies and Earth Observation to promote sustainability. Awarded 3rd place."
           badges={["🥉 3rd Place Award"]}
+          accentColor="#93C5FD"
         />
         <Card
+          dark
           fallbackIcon={<SparklesIcon className="w-16 h-16" />}
           eyebrow="05"
           title="AI-Powered Tools at Medtronic"
           subtitle="Internal automation tools"
           description="Built two internal AI tools using n8n and Claude: one to automatically match public tender opportunities, another to track patient adherence to a remote monitoring app — enabling proactive clinical follow-up."
           tags={["AI", "n8n", "Healthcare", "Claude"]}
+          accentColor="#A78BFA"
         />
         <Card
+          dark
           image="/images/portfolio/wheretowork.png"
           imageAlt="Where to Work"
           fallbackIcon={<MapPinIcon className="w-16 h-16" />}
@@ -79,6 +92,7 @@ export default function Portfolio() {
           description="Built a collaborative website to discover the best places for remote working in your neighbourhood."
           tags={["Web", "Community"]}
           link={{ href: "https://where-to-work-blue.vercel.app/", label: "Visit Site" }}
+          accentColor="#93C5FD"
         />
       </CardGrid>
     </SectionWrapper>
